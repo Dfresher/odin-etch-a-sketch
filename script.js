@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
 draw_grid(16);
 
 function draw_grid(grid) {
-    let square_px = 440 / grid;
+    let square_px = 600 / grid;
     const container = document.querySelector('.container');
 
     for (let i = 0; i < grid; i++) {

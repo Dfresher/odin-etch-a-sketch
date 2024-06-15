@@ -1,17 +1,21 @@
-button {
-    padding: 5px 20px;
-    margin: 7px;
-    border-radius: 10px;
-}
-
 .wider-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes color-change { 
-    from {background-color: orange;} 
-    to {background-color: grey;}
+button {
+  padding: 5px 20px;
+  margin: 7px;
+  border-radius: 10px;
+}
+
+@keyframes color-change {
+  from {
+    background-color: orange;
+  }
+  to {
+    background-color: grey;
+  }
 }
